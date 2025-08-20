@@ -13,13 +13,14 @@ def printPercents(counts, catTotal, labels):
             print(f"{label}: {int(cnt)} ({pct:.3f}% of category total)")
 
 
-# path = "C:\\Users\\devib\\Desktop\\AberothDamageCollection\\30Def\\20Accu\\14Atk.csv"
-# path = "C:\\Users\\devib\\Desktop\\AberothDamageCollection\\30Def\\20Accu\\3Atk10DagPlusAccu.csv"
+# path = "WeaponDamage\\30Def\\20Accu\\14Atk.csv"
+# path = "WeaponDamage\\30Def\\20Accu\\14Atk.csv"
 # path = "WeaponDamage\\20Def\\14Atk\\10Accu.csv"
-# path = "C:\\Users\\devib\\Desktop\\AberothDamageCollection\\20Def\\14Atk\\10Accu.csv"
-# path = "C:\\Users\\devib\\Desktop\\AberothDamageCollection\\15Def\\14Atk\\20Accu.csv"
+# path = "WeaponDamage\\20Def\\14Atk\\10Accu.csv"
+# path = "WeaponDamage\\20Def\\14Atk\20Accu.csv"
+path = "WeaponDamage\\15Def\\14Atk\\20Accu.csv"
 # path = "DrainLifeSpell\\DrainSpell.csv"
-path = "FacetedStone\\FacesFull.csv"
+# path = "FacetedStone\\FacesFull.csv"
 
 max_xticks = 100
 groupTitle = "Damage Distribution (All vs. Hit Types)" # MASTER TITLE (won't overwrite any subplot titles)
